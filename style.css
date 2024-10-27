@@ -1,0 +1,81 @@
+body {
+    background: linear-gradient(to right, #ccefff, #99ddff); 
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: #0056b3; /* Dark blue navbar */
+    border-bottom: 2px solid #ccefff;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin-top: 40px;
+  }
+  
+  h1, h2, p, label {
+    color: #01579b; /* Darker blue text for better contrast */
+  }
+  
+  .bg-gradient {
+    background: linear-gradient(135deg, #e0f7ff, #b3eaff); /* Light gradient */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for form containers */
+  }
+  
+  .bg-lightblue {
+    background-color: #e0f7ff; /* Light blue for other sections */
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .form-control, .form-select {
+    border-radius: 0.5rem;
+    border-color: #99ddff; /* Soft border */
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+  }
+  
+  .text-black {
+    color: black !important;
+  }
+  
+  .list-group-item {
+    background-color: #ffffff;
+    border-color: #cce5ff; /* Light border for list items */
+    border-radius: 0.75rem;
+  }
+  
+  .nav-link {
+    color: white !important;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #99ddff !important; /* Light hover color for nav links */
+  }
+  
+  .navbar-toggler-icon {
+    background-color: white; /* White hamburger icon for smaller screens */
+  }
